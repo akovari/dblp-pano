@@ -1,0 +1,45 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF100TCL.CUSTOMER_ADDRESS
+fields:
+- data_reference: '"CA_ADDRESS_ID"'
+  field_map:
+  - ca_address_id
+- data_reference: '"CA_ADDRESS_SK"'
+  field_map:
+  - ca_address_sk
+- data_reference: '"CA_CITY"'
+  field_map:
+  - ca_city
+- data_reference: '"CA_COUNTRY"'
+  field_map:
+  - ca_country
+- data_reference: '"CA_COUNTY"'
+  field_map:
+  - ca_county
+- data_reference: '"CA_GMT_OFFSET"'
+  field_map:
+  - ca_gmt_offset
+- data_reference: '"CA_LOCATION_TYPE"'
+  field_map:
+  - ca_location_type
+- data_reference: '"CA_STATE"'
+  field_map:
+  - ca_state
+- data_reference: '"CA_STREET_NAME"'
+  field_map:
+  - ca_street_name
+- data_reference: '"CA_STREET_NUMBER"'
+  field_map:
+  - ca_street_number
+- data_reference: '"CA_STREET_TYPE"'
+  field_map:
+  - ca_street_type
+- data_reference: '"CA_SUITE_NUMBER"'
+  field_map:
+  - ca_suite_number
+- data_reference: '"CA_ZIP"'
+  field_map:
+  - ca_zip
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf100tcl.customer_address

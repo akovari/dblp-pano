@@ -1,0 +1,36 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.UTIL_DB.INFORMATION_SCHEMA.EXTERNAL_TABLES
+fields:
+- data_reference: '"COMMENT"'
+  field_map:
+  - comment
+- data_reference: '"CREATED"'
+  field_map:
+  - created
+- data_reference: '"FILE_FORMAT_NAME"'
+  field_map:
+  - file_format_name
+- data_reference: '"FILE_FORMAT_TYPE"'
+  field_map:
+  - file_format_type
+- data_reference: '"LAST_ALTERED"'
+  field_map:
+  - last_altered
+- data_reference: '"LOCATION"'
+  field_map:
+  - location
+- data_reference: '"TABLE_CATALOG"'
+  field_map:
+  - table_catalog
+- data_reference: '"TABLE_NAME"'
+  field_map:
+  - table_name
+- data_reference: '"TABLE_OWNER"'
+  field_map:
+  - table_owner
+- data_reference: '"TABLE_SCHEMA"'
+  field_map:
+  - table_schema
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.util_db.information_schema.external_tables

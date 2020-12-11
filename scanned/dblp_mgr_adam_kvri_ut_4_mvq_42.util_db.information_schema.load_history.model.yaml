@@ -1,0 +1,45 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.UTIL_DB.INFORMATION_SCHEMA.LOAD_HISTORY
+fields:
+- data_reference: '"ERROR_COUNT"'
+  field_map:
+  - error_count
+- data_reference: '"ERROR_LIMIT"'
+  field_map:
+  - error_limit
+- data_reference: '"FILE_NAME"'
+  field_map:
+  - file_name
+- data_reference: '"FIRST_ERROR_CHARACTER_POSITION"'
+  field_map:
+  - first_error_character_position
+- data_reference: '"FIRST_ERROR_COL_NAME"'
+  field_map:
+  - first_error_col_name
+- data_reference: '"FIRST_ERROR_LINE_NUMBER"'
+  field_map:
+  - first_error_line_number
+- data_reference: '"FIRST_ERROR_MESSAGE"'
+  field_map:
+  - first_error_message
+- data_reference: '"LAST_LOAD_TIME"'
+  field_map:
+  - last_load_time
+- data_reference: '"ROW_COUNT"'
+  field_map:
+  - row_count
+- data_reference: '"ROW_PARSED"'
+  field_map:
+  - row_parsed
+- data_reference: '"SCHEMA_NAME"'
+  field_map:
+  - schema_name
+- data_reference: '"STATUS"'
+  field_map:
+  - status
+- data_reference: '"TABLE_NAME"'
+  field_map:
+  - table_name
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.util_db.information_schema.load_history

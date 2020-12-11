@@ -1,0 +1,24 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.Q18
+fields:
+- data_reference: '"C_CUSTKEY"'
+  field_map:
+  - c_custkey
+- data_reference: '"C_NAME"'
+  field_map:
+  - c_name
+- data_reference: '"O_ORDERDATE"'
+  field_map:
+  - o_orderdate
+- data_reference: '"O_ORDERKEY"'
+  field_map:
+  - o_orderkey
+- data_reference: '"O_TOTALPRICE"'
+  field_map:
+  - o_totalprice
+- data_reference: '"SUM_QUANTITY"'
+  field_map:
+  - sum_quantity
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpch_sf1.q18

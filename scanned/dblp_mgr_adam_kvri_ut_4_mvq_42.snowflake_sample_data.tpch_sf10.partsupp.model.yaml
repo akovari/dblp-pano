@@ -1,0 +1,21 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCH_SF10.PARTSUPP
+fields:
+- data_reference: '"PS_AVAILQTY"'
+  field_map:
+  - ps_availqty
+- data_reference: '"PS_COMMENT"'
+  field_map:
+  - ps_comment
+- data_reference: '"PS_PARTKEY"'
+  field_map:
+  - ps_partkey
+- data_reference: '"PS_SUPPKEY"'
+  field_map:
+  - ps_suppkey
+- data_reference: '"PS_SUPPLYCOST"'
+  field_map:
+  - ps_supplycost
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpch_sf10.partsupp

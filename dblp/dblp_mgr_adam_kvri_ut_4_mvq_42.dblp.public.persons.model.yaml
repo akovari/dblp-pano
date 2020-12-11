@@ -1,0 +1,28 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.DBLP.PUBLIC.PERSONS
+fields:
+- data_reference: '"KEY"'
+  field_map:
+  - person_key
+- data_reference: '"MDATE"'
+  field_map:
+  - mdate
+- data_reference: '"MOST_RECENT_MDATE"'
+  field_map:
+  - most_recent_mdate
+- data_reference: '"NUMBER_OF_PUBLICATIONS"'
+  field_map:
+  - number_of_publications
+- data_reference: '"PID"'
+  field_map:
+  - pid
+- data_reference: '"PRIMARY_NAME"'
+  field_map:
+  - primary_name
+- data_reference: '"NUMBER_OF_COAUTHORS"'
+  field_map:
+  - number_of_coauthors
+identifiers:
+  - person_key
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.dblp.public.persons

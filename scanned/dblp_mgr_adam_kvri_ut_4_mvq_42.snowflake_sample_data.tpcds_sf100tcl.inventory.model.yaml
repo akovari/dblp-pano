@@ -1,0 +1,18 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF100TCL.INVENTORY
+fields:
+- data_reference: '"INV_DATE_SK"'
+  field_map:
+  - inv_date_sk
+- data_reference: '"INV_ITEM_SK"'
+  field_map:
+  - inv_item_sk
+- data_reference: '"INV_QUANTITY_ON_HAND"'
+  field_map:
+  - inv_quantity_on_hand
+- data_reference: '"INV_WAREHOUSE_SK"'
+  field_map:
+  - inv_warehouse_sk
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf100tcl.inventory

@@ -1,0 +1,57 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.DEMO_DB.INFORMATION_SCHEMA.SEQUENCES
+fields:
+- data_reference: '"COMMENT"'
+  field_map:
+  - comment
+- data_reference: '"CREATED"'
+  field_map:
+  - created
+- data_reference: '"CYCLE_OPTION"'
+  field_map:
+  - cycle_option
+- data_reference: '"DATA_TYPE"'
+  field_map:
+  - data_type
+- data_reference: '"INCREMENT"'
+  field_map:
+  - increment
+- data_reference: '"LAST_ALTERED"'
+  field_map:
+  - last_altered
+- data_reference: '"MAXIMUM_VALUE"'
+  field_map:
+  - maximum_value
+- data_reference: '"MINIMUM_VALUE"'
+  field_map:
+  - minimum_value
+- data_reference: '"NEXT_VALUE"'
+  field_map:
+  - next_value
+- data_reference: '"NUMERIC_PRECISION"'
+  field_map:
+  - numeric_precision
+- data_reference: '"NUMERIC_PRECISION_RADIX"'
+  field_map:
+  - numeric_precision_radix
+- data_reference: '"NUMERIC_SCALE"'
+  field_map:
+  - numeric_scale
+- data_reference: '"SEQUENCE_CATALOG"'
+  field_map:
+  - sequence_catalog
+- data_reference: '"SEQUENCE_NAME"'
+  field_map:
+  - sequence_name
+- data_reference: '"SEQUENCE_OWNER"'
+  field_map:
+  - sequence_owner
+- data_reference: '"SEQUENCE_SCHEMA"'
+  field_map:
+  - sequence_schema
+- data_reference: '"START_VALUE"'
+  field_map:
+  - start_value
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.demo_db.information_schema.sequences

@@ -1,0 +1,28 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.DBLP.PUBLIC.PUBLICATIONS
+fields:
+- data_reference: '"BOOK_TITLE"'
+  field_map:
+  - book_title
+- data_reference: '"JOURNAL_TITLE"'
+  field_map:
+  - journal_title
+- data_reference: '"KEY"'
+  field_map:
+  - publication_key
+- data_reference: '"MDATE"'
+  field_map:
+  - mdate
+- data_reference: '"TITLE"'
+  field_map:
+  - title
+- data_reference: '"TOC_KEY"'
+  field_map:
+  - toc_key
+- data_reference: '"YEAR"'
+  field_map:
+  - year
+identifiers:
+  - publication_key
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.dblp.public.publications

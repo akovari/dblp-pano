@@ -1,0 +1,45 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.UTIL_DB.INFORMATION_SCHEMA.TABLE_CONSTRAINTS
+fields:
+- data_reference: '"COMMENT"'
+  field_map:
+  - comment
+- data_reference: '"CONSTRAINT_CATALOG"'
+  field_map:
+  - constraint_catalog
+- data_reference: '"CONSTRAINT_NAME"'
+  field_map:
+  - constraint_name
+- data_reference: '"CONSTRAINT_SCHEMA"'
+  field_map:
+  - constraint_schema
+- data_reference: '"CONSTRAINT_TYPE"'
+  field_map:
+  - constraint_type
+- data_reference: '"CREATED"'
+  field_map:
+  - created
+- data_reference: '"ENFORCED"'
+  field_map:
+  - enforced
+- data_reference: '"INITIALLY_DEFERRED"'
+  field_map:
+  - initially_deferred
+- data_reference: '"IS_DEFERRABLE"'
+  field_map:
+  - is_deferrable
+- data_reference: '"LAST_ALTERED"'
+  field_map:
+  - last_altered
+- data_reference: '"TABLE_CATALOG"'
+  field_map:
+  - table_catalog
+- data_reference: '"TABLE_NAME"'
+  field_map:
+  - table_name
+- data_reference: '"TABLE_SCHEMA"'
+  field_map:
+  - table_schema
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.util_db.information_schema.table_constraints

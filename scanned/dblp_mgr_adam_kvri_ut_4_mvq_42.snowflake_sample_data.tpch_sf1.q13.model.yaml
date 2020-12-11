@@ -1,0 +1,12 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.Q13
+fields:
+- data_reference: '"CUSTDIST"'
+  field_map:
+  - custdist
+- data_reference: '"C_COUNT"'
+  field_map:
+  - c_count
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpch_sf1.q13

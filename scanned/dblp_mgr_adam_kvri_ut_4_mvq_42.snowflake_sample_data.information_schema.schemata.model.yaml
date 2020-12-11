@@ -1,0 +1,45 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.INFORMATION_SCHEMA.SCHEMATA
+fields:
+- data_reference: '"CATALOG_NAME"'
+  field_map:
+  - catalog_name
+- data_reference: '"COMMENT"'
+  field_map:
+  - comment
+- data_reference: '"CREATED"'
+  field_map:
+  - created
+- data_reference: '"DEFAULT_CHARACTER_SET_CATALOG"'
+  field_map:
+  - default_character_set_catalog
+- data_reference: '"DEFAULT_CHARACTER_SET_NAME"'
+  field_map:
+  - default_character_set_name
+- data_reference: '"DEFAULT_CHARACTER_SET_SCHEMA"'
+  field_map:
+  - default_character_set_schema
+- data_reference: '"IS_MANAGED_ACCESS"'
+  field_map:
+  - is_managed_access
+- data_reference: '"IS_TRANSIENT"'
+  field_map:
+  - is_transient
+- data_reference: '"LAST_ALTERED"'
+  field_map:
+  - last_altered
+- data_reference: '"RETENTION_TIME"'
+  field_map:
+  - retention_time
+- data_reference: '"SCHEMA_NAME"'
+  field_map:
+  - schema_name
+- data_reference: '"SCHEMA_OWNER"'
+  field_map:
+  - schema_owner
+- data_reference: '"SQL_PATH"'
+  field_map:
+  - sql_path
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.information_schema.schemata

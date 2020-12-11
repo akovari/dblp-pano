@@ -1,0 +1,13 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.DBLP.PUBLIC.TOCS
+fields:
+- data_reference: '"KEY"'
+  field_map:
+  - toc_key
+- data_reference: '"PAGE_URL"'
+  field_map:
+  - page_url
+identifiers:
+  - toc_key
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.dblp.public.tocs

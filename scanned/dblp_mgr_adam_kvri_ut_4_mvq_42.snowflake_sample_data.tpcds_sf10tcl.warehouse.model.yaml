@@ -1,0 +1,48 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF10TCL.WAREHOUSE
+fields:
+- data_reference: '"W_CITY"'
+  field_map:
+  - w_city
+- data_reference: '"W_COUNTRY"'
+  field_map:
+  - w_country
+- data_reference: '"W_COUNTY"'
+  field_map:
+  - w_county
+- data_reference: '"W_GMT_OFFSET"'
+  field_map:
+  - w_gmt_offset
+- data_reference: '"W_STATE"'
+  field_map:
+  - w_state
+- data_reference: '"W_STREET_NAME"'
+  field_map:
+  - w_street_name
+- data_reference: '"W_STREET_NUMBER"'
+  field_map:
+  - w_street_number
+- data_reference: '"W_STREET_TYPE"'
+  field_map:
+  - w_street_type
+- data_reference: '"W_SUITE_NUMBER"'
+  field_map:
+  - w_suite_number
+- data_reference: '"W_WAREHOUSE_ID"'
+  field_map:
+  - w_warehouse_id
+- data_reference: '"W_WAREHOUSE_NAME"'
+  field_map:
+  - w_warehouse_name
+- data_reference: '"W_WAREHOUSE_SK"'
+  field_map:
+  - w_warehouse_sk
+- data_reference: '"W_WAREHOUSE_SQ_FT"'
+  field_map:
+  - w_warehouse_sq_ft
+- data_reference: '"W_ZIP"'
+  field_map:
+  - w_zip
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf10tcl.warehouse

@@ -1,0 +1,48 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF100TCL.WEB_PAGE
+fields:
+- data_reference: '"WP_ACCESS_DATE_SK"'
+  field_map:
+  - wp_access_date_sk
+- data_reference: '"WP_AUTOGEN_FLAG"'
+  field_map:
+  - wp_autogen_flag
+- data_reference: '"WP_CHAR_COUNT"'
+  field_map:
+  - wp_char_count
+- data_reference: '"WP_CREATION_DATE_SK"'
+  field_map:
+  - wp_creation_date_sk
+- data_reference: '"WP_CUSTOMER_SK"'
+  field_map:
+  - wp_customer_sk
+- data_reference: '"WP_IMAGE_COUNT"'
+  field_map:
+  - wp_image_count
+- data_reference: '"WP_LINK_COUNT"'
+  field_map:
+  - wp_link_count
+- data_reference: '"WP_MAX_AD_COUNT"'
+  field_map:
+  - wp_max_ad_count
+- data_reference: '"WP_REC_END_DATE"'
+  field_map:
+  - wp_rec_end_date
+- data_reference: '"WP_REC_START_DATE"'
+  field_map:
+  - wp_rec_start_date
+- data_reference: '"WP_TYPE"'
+  field_map:
+  - wp_type
+- data_reference: '"WP_URL"'
+  field_map:
+  - wp_url
+- data_reference: '"WP_WEB_PAGE_ID"'
+  field_map:
+  - wp_web_page_id
+- data_reference: '"WP_WEB_PAGE_SK"'
+  field_map:
+  - wp_web_page_sk
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf100tcl.web_page

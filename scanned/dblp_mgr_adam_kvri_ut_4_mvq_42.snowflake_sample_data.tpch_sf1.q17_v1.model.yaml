@@ -1,0 +1,9 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.Q17_V1
+fields:
+- data_reference: '"AVG_YEARLY"'
+  field_map:
+  - avg_yearly
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpch_sf1.q17_v1

@@ -1,0 +1,39 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.DEMO_DB.INFORMATION_SCHEMA.PIPES
+fields:
+- data_reference: '"COMMENT"'
+  field_map:
+  - comment
+- data_reference: '"CREATED"'
+  field_map:
+  - created
+- data_reference: '"DEFINITION"'
+  field_map:
+  - definition
+- data_reference: '"IS_AUTOINGEST_ENABLED"'
+  field_map:
+  - is_autoingest_enabled
+- data_reference: '"LAST_ALTERED"'
+  field_map:
+  - last_altered
+- data_reference: '"NOTIFICATION_CHANNEL_NAME"'
+  field_map:
+  - notification_channel_name
+- data_reference: '"PATTERN"'
+  field_map:
+  - pattern
+- data_reference: '"PIPE_CATALOG"'
+  field_map:
+  - pipe_catalog
+- data_reference: '"PIPE_NAME"'
+  field_map:
+  - pipe_name
+- data_reference: '"PIPE_OWNER"'
+  field_map:
+  - pipe_owner
+- data_reference: '"PIPE_SCHEMA"'
+  field_map:
+  - pipe_schema
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.demo_db.information_schema.pipes

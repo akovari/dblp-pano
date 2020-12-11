@@ -1,0 +1,132 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.INFORMATION_SCHEMA.COLUMNS
+fields:
+- data_reference: '"CHARACTER_MAXIMUM_LENGTH"'
+  field_map:
+  - character_maximum_length
+- data_reference: '"CHARACTER_OCTET_LENGTH"'
+  field_map:
+  - character_octet_length
+- data_reference: '"CHARACTER_SET_CATALOG"'
+  field_map:
+  - character_set_catalog
+- data_reference: '"CHARACTER_SET_NAME"'
+  field_map:
+  - character_set_name
+- data_reference: '"CHARACTER_SET_SCHEMA"'
+  field_map:
+  - character_set_schema
+- data_reference: '"COLLATION_CATALOG"'
+  field_map:
+  - collation_catalog
+- data_reference: '"COLLATION_NAME"'
+  field_map:
+  - collation_name
+- data_reference: '"COLLATION_SCHEMA"'
+  field_map:
+  - collation_schema
+- data_reference: '"COLUMN_DEFAULT"'
+  field_map:
+  - column_default
+- data_reference: '"COLUMN_NAME"'
+  field_map:
+  - column_name
+- data_reference: '"COMMENT"'
+  field_map:
+  - comment
+- data_reference: '"DATA_TYPE"'
+  field_map:
+  - data_type
+- data_reference: '"DATETIME_PRECISION"'
+  field_map:
+  - datetime_precision
+- data_reference: '"DOMAIN_CATALOG"'
+  field_map:
+  - domain_catalog
+- data_reference: '"DOMAIN_NAME"'
+  field_map:
+  - domain_name
+- data_reference: '"DOMAIN_SCHEMA"'
+  field_map:
+  - domain_schema
+- data_reference: '"DTD_IDENTIFIER"'
+  field_map:
+  - dtd_identifier
+- data_reference: '"IDENTITY_CYCLE"'
+  field_map:
+  - identity_cycle
+- data_reference: '"IDENTITY_GENERATION"'
+  field_map:
+  - identity_generation
+- data_reference: '"IDENTITY_INCREMENT"'
+  field_map:
+  - identity_increment
+- data_reference: '"IDENTITY_MAXIMUM"'
+  field_map:
+  - identity_maximum
+- data_reference: '"IDENTITY_MINIMUM"'
+  field_map:
+  - identity_minimum
+- data_reference: '"IDENTITY_START"'
+  field_map:
+  - identity_start
+- data_reference: '"INTERVAL_PRECISION"'
+  field_map:
+  - interval_precision
+- data_reference: '"INTERVAL_TYPE"'
+  field_map:
+  - interval_type
+- data_reference: '"IS_IDENTITY"'
+  field_map:
+  - is_identity
+- data_reference: '"IS_NULLABLE"'
+  field_map:
+  - is_nullable
+- data_reference: '"IS_SELF_REFERENCING"'
+  field_map:
+  - is_self_referencing
+- data_reference: '"MAXIMUM_CARDINALITY"'
+  field_map:
+  - maximum_cardinality
+- data_reference: '"NUMERIC_PRECISION"'
+  field_map:
+  - numeric_precision
+- data_reference: '"NUMERIC_PRECISION_RADIX"'
+  field_map:
+  - numeric_precision_radix
+- data_reference: '"NUMERIC_SCALE"'
+  field_map:
+  - numeric_scale
+- data_reference: '"ORDINAL_POSITION"'
+  field_map:
+  - ordinal_position
+- data_reference: '"SCOPE_CATALOG"'
+  field_map:
+  - scope_catalog
+- data_reference: '"SCOPE_NAME"'
+  field_map:
+  - scope_name
+- data_reference: '"SCOPE_SCHEMA"'
+  field_map:
+  - scope_schema
+- data_reference: '"TABLE_CATALOG"'
+  field_map:
+  - table_catalog
+- data_reference: '"TABLE_NAME"'
+  field_map:
+  - table_name
+- data_reference: '"TABLE_SCHEMA"'
+  field_map:
+  - table_schema
+- data_reference: '"UDT_CATALOG"'
+  field_map:
+  - udt_catalog
+- data_reference: '"UDT_NAME"'
+  field_map:
+  - udt_name
+- data_reference: '"UDT_SCHEMA"'
+  field_map:
+  - udt_schema
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.information_schema.columns

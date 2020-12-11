@@ -1,0 +1,33 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCH_SF10.ORDERS
+fields:
+- data_reference: '"O_CLERK"'
+  field_map:
+  - o_clerk
+- data_reference: '"O_COMMENT"'
+  field_map:
+  - o_comment
+- data_reference: '"O_CUSTKEY"'
+  field_map:
+  - o_custkey
+- data_reference: '"O_ORDERDATE"'
+  field_map:
+  - o_orderdate
+- data_reference: '"O_ORDERKEY"'
+  field_map:
+  - o_orderkey
+- data_reference: '"O_ORDERPRIORITY"'
+  field_map:
+  - o_orderpriority
+- data_reference: '"O_ORDERSTATUS"'
+  field_map:
+  - o_orderstatus
+- data_reference: '"O_SHIPPRIORITY"'
+  field_map:
+  - o_shippriority
+- data_reference: '"O_TOTALPRICE"'
+  field_map:
+  - o_totalprice
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpch_sf10.orders

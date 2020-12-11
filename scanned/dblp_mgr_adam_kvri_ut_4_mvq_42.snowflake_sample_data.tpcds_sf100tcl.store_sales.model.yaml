@@ -1,0 +1,75 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF100TCL.STORE_SALES
+fields:
+- data_reference: '"SS_ADDR_SK"'
+  field_map:
+  - ss_addr_sk
+- data_reference: '"SS_CDEMO_SK"'
+  field_map:
+  - ss_cdemo_sk
+- data_reference: '"SS_COUPON_AMT"'
+  field_map:
+  - ss_coupon_amt
+- data_reference: '"SS_CUSTOMER_SK"'
+  field_map:
+  - ss_customer_sk
+- data_reference: '"SS_EXT_DISCOUNT_AMT"'
+  field_map:
+  - ss_ext_discount_amt
+- data_reference: '"SS_EXT_LIST_PRICE"'
+  field_map:
+  - ss_ext_list_price
+- data_reference: '"SS_EXT_SALES_PRICE"'
+  field_map:
+  - ss_ext_sales_price
+- data_reference: '"SS_EXT_TAX"'
+  field_map:
+  - ss_ext_tax
+- data_reference: '"SS_EXT_WHOLESALE_COST"'
+  field_map:
+  - ss_ext_wholesale_cost
+- data_reference: '"SS_HDEMO_SK"'
+  field_map:
+  - ss_hdemo_sk
+- data_reference: '"SS_ITEM_SK"'
+  field_map:
+  - ss_item_sk
+- data_reference: '"SS_LIST_PRICE"'
+  field_map:
+  - ss_list_price
+- data_reference: '"SS_NET_PAID"'
+  field_map:
+  - ss_net_paid
+- data_reference: '"SS_NET_PAID_INC_TAX"'
+  field_map:
+  - ss_net_paid_inc_tax
+- data_reference: '"SS_NET_PROFIT"'
+  field_map:
+  - ss_net_profit
+- data_reference: '"SS_PROMO_SK"'
+  field_map:
+  - ss_promo_sk
+- data_reference: '"SS_QUANTITY"'
+  field_map:
+  - ss_quantity
+- data_reference: '"SS_SALES_PRICE"'
+  field_map:
+  - ss_sales_price
+- data_reference: '"SS_SOLD_DATE_SK"'
+  field_map:
+  - ss_sold_date_sk
+- data_reference: '"SS_SOLD_TIME_SK"'
+  field_map:
+  - ss_sold_time_sk
+- data_reference: '"SS_STORE_SK"'
+  field_map:
+  - ss_store_sk
+- data_reference: '"SS_TICKET_NUMBER"'
+  field_map:
+  - ss_ticket_number
+- data_reference: '"SS_WHOLESALE_COST"'
+  field_map:
+  - ss_wholesale_cost
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf100tcl.store_sales

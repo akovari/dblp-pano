@@ -1,0 +1,54 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.LINEITEM
+fields:
+- data_reference: '"L_COMMENT"'
+  field_map:
+  - l_comment
+- data_reference: '"L_COMMITDATE"'
+  field_map:
+  - l_commitdate
+- data_reference: '"L_DISCOUNT"'
+  field_map:
+  - l_discount
+- data_reference: '"L_EXTENDEDPRICE"'
+  field_map:
+  - l_extendedprice
+- data_reference: '"L_LINENUMBER"'
+  field_map:
+  - l_linenumber
+- data_reference: '"L_LINESTATUS"'
+  field_map:
+  - l_linestatus
+- data_reference: '"L_ORDERKEY"'
+  field_map:
+  - l_orderkey
+- data_reference: '"L_PARTKEY"'
+  field_map:
+  - l_partkey
+- data_reference: '"L_QUANTITY"'
+  field_map:
+  - l_quantity
+- data_reference: '"L_RECEIPTDATE"'
+  field_map:
+  - l_receiptdate
+- data_reference: '"L_RETURNFLAG"'
+  field_map:
+  - l_returnflag
+- data_reference: '"L_SHIPDATE"'
+  field_map:
+  - l_shipdate
+- data_reference: '"L_SHIPINSTRUCT"'
+  field_map:
+  - l_shipinstruct
+- data_reference: '"L_SHIPMODE"'
+  field_map:
+  - l_shipmode
+- data_reference: '"L_SUPPKEY"'
+  field_map:
+  - l_suppkey
+- data_reference: '"L_TAX"'
+  field_map:
+  - l_tax
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpch_sf1.lineitem

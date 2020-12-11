@@ -1,0 +1,30 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCH_SF10.Q02
+fields:
+- data_reference: '"N_NAME"'
+  field_map:
+  - n_name
+- data_reference: '"P_MFGR"'
+  field_map:
+  - p_mfgr
+- data_reference: '"P_PARTKEY"'
+  field_map:
+  - p_partkey
+- data_reference: '"S_ACCTBAL"'
+  field_map:
+  - s_acctbal
+- data_reference: '"S_ADDRESS"'
+  field_map:
+  - s_address
+- data_reference: '"S_COMMENT"'
+  field_map:
+  - s_comment
+- data_reference: '"S_NAME"'
+  field_map:
+  - s_name
+- data_reference: '"S_PHONE"'
+  field_map:
+  - s_phone
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpch_sf10.q02

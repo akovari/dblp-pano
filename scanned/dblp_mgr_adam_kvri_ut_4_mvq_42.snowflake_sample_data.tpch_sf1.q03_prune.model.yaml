@@ -1,0 +1,18 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.Q03_PRUNE
+fields:
+- data_reference: '"L_ORDERKEY"'
+  field_map:
+  - l_orderkey
+- data_reference: '"O_ORDERDATE"'
+  field_map:
+  - o_orderdate
+- data_reference: '"O_SHIPPRIORITY"'
+  field_map:
+  - o_shippriority
+- data_reference: '"REVENUE"'
+  field_map:
+  - revenue
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpch_sf1.q03_prune

@@ -1,0 +1,36 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.Q01
+fields:
+- data_reference: '"AVG_DISC"'
+  field_map:
+  - avg_disc
+- data_reference: '"AVG_PRICE"'
+  field_map:
+  - avg_price
+- data_reference: '"AVG_QTY"'
+  field_map:
+  - avg_qty
+- data_reference: '"COUNT_ORDER"'
+  field_map:
+  - count_order
+- data_reference: '"L_LINESTATUS"'
+  field_map:
+  - l_linestatus
+- data_reference: '"L_RETURNFLAG"'
+  field_map:
+  - l_returnflag
+- data_reference: '"SUM_BASE_PRICE"'
+  field_map:
+  - sum_base_price
+- data_reference: '"SUM_CHARGE"'
+  field_map:
+  - sum_charge
+- data_reference: '"SUM_DISC_PRICE"'
+  field_map:
+  - sum_disc_price
+- data_reference: '"SUM_QTY"'
+  field_map:
+  - sum_qty
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpch_sf1.q01

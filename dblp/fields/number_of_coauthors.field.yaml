@@ -1,0 +1,8 @@
+aggregation:
+  type: sum
+api_version: v1
+data_type: integer
+display_name: number of coauthors
+field_type: metric
+group: CLI
+slug: number_of_coauthors

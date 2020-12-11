@@ -1,0 +1,36 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.UTIL_DB.INFORMATION_SCHEMA.REPLICATION_DATABASES
+fields:
+- data_reference: '"ACCOUNT_NAME"'
+  field_map:
+  - account_name
+- data_reference: '"COMMENT"'
+  field_map:
+  - comment
+- data_reference: '"CREATED"'
+  field_map:
+  - created
+- data_reference: '"DATABASE_NAME"'
+  field_map:
+  - database_name
+- data_reference: '"FAILOVER_ALLOWED_TO_ACCOUNTS"'
+  field_map:
+  - failover_allowed_to_accounts
+- data_reference: '"IS_PRIMARY"'
+  field_map:
+  - is_primary
+- data_reference: '"PRIMARY"'
+  field_map:
+  - primary
+- data_reference: '"REGION_GROUP"'
+  field_map:
+  - region_group
+- data_reference: '"REPLICATION_ALLOWED_TO_ACCOUNTS"'
+  field_map:
+  - replication_allowed_to_accounts
+- data_reference: '"SNOWFLAKE_REGION"'
+  field_map:
+  - snowflake_region
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.util_db.information_schema.replication_databases

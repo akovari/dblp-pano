@@ -1,0 +1,36 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.Q02_WINMAGIC
+fields:
+- data_reference: '"MINPS_SUPPLYCOST"'
+  field_map:
+  - minps_supplycost
+- data_reference: '"N_NAME"'
+  field_map:
+  - n_name
+- data_reference: '"PS_SUPPLYCOST"'
+  field_map:
+  - ps_supplycost
+- data_reference: '"P_MFGR"'
+  field_map:
+  - p_mfgr
+- data_reference: '"P_PARTKEY"'
+  field_map:
+  - p_partkey
+- data_reference: '"S_ACCTBAL"'
+  field_map:
+  - s_acctbal
+- data_reference: '"S_ADDRESS"'
+  field_map:
+  - s_address
+- data_reference: '"S_COMMENT"'
+  field_map:
+  - s_comment
+- data_reference: '"S_NAME"'
+  field_map:
+  - s_name
+- data_reference: '"S_PHONE"'
+  field_map:
+  - s_phone
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpch_sf1.q02_winmagic

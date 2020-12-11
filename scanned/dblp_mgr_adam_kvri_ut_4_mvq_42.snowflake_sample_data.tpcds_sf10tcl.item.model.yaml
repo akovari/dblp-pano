@@ -1,0 +1,72 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF10TCL.ITEM
+fields:
+- data_reference: '"I_BRAND"'
+  field_map:
+  - i_brand
+- data_reference: '"I_BRAND_ID"'
+  field_map:
+  - i_brand_id
+- data_reference: '"I_CATEGORY"'
+  field_map:
+  - i_category
+- data_reference: '"I_CATEGORY_ID"'
+  field_map:
+  - i_category_id
+- data_reference: '"I_CLASS"'
+  field_map:
+  - i_class
+- data_reference: '"I_CLASS_ID"'
+  field_map:
+  - i_class_id
+- data_reference: '"I_COLOR"'
+  field_map:
+  - i_color
+- data_reference: '"I_CONTAINER"'
+  field_map:
+  - i_container
+- data_reference: '"I_CURRENT_PRICE"'
+  field_map:
+  - i_current_price
+- data_reference: '"I_FORMULATION"'
+  field_map:
+  - i_formulation
+- data_reference: '"I_ITEM_DESC"'
+  field_map:
+  - i_item_desc
+- data_reference: '"I_ITEM_ID"'
+  field_map:
+  - i_item_id
+- data_reference: '"I_ITEM_SK"'
+  field_map:
+  - i_item_sk
+- data_reference: '"I_MANAGER_ID"'
+  field_map:
+  - i_manager_id
+- data_reference: '"I_MANUFACT"'
+  field_map:
+  - i_manufact
+- data_reference: '"I_MANUFACT_ID"'
+  field_map:
+  - i_manufact_id
+- data_reference: '"I_PRODUCT_NAME"'
+  field_map:
+  - i_product_name
+- data_reference: '"I_REC_END_DATE"'
+  field_map:
+  - i_rec_end_date
+- data_reference: '"I_REC_START_DATE"'
+  field_map:
+  - i_rec_start_date
+- data_reference: '"I_SIZE"'
+  field_map:
+  - i_size
+- data_reference: '"I_UNITS"'
+  field_map:
+  - i_units
+- data_reference: '"I_WHOLESALE_COST"'
+  field_map:
+  - i_wholesale_cost
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf10tcl.item

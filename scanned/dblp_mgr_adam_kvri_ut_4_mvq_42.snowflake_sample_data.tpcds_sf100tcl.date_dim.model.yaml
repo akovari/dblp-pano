@@ -1,0 +1,90 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF100TCL.DATE_DIM
+fields:
+- data_reference: '"D_CURRENT_DAY"'
+  field_map:
+  - d_current_day
+- data_reference: '"D_CURRENT_MONTH"'
+  field_map:
+  - d_current_month
+- data_reference: '"D_CURRENT_QUARTER"'
+  field_map:
+  - d_current_quarter
+- data_reference: '"D_CURRENT_WEEK"'
+  field_map:
+  - d_current_week
+- data_reference: '"D_CURRENT_YEAR"'
+  field_map:
+  - d_current_year
+- data_reference: '"D_DATE"'
+  field_map:
+  - d_date
+- data_reference: '"D_DATE_ID"'
+  field_map:
+  - d_date_id
+- data_reference: '"D_DATE_SK"'
+  field_map:
+  - d_date_sk
+- data_reference: '"D_DAY_NAME"'
+  field_map:
+  - d_day_name
+- data_reference: '"D_DOM"'
+  field_map:
+  - d_dom
+- data_reference: '"D_DOW"'
+  field_map:
+  - d_dow
+- data_reference: '"D_FIRST_DOM"'
+  field_map:
+  - d_first_dom
+- data_reference: '"D_FOLLOWING_HOLIDAY"'
+  field_map:
+  - d_following_holiday
+- data_reference: '"D_FY_QUARTER_SEQ"'
+  field_map:
+  - d_fy_quarter_seq
+- data_reference: '"D_FY_WEEK_SEQ"'
+  field_map:
+  - d_fy_week_seq
+- data_reference: '"D_FY_YEAR"'
+  field_map:
+  - d_fy_year
+- data_reference: '"D_HOLIDAY"'
+  field_map:
+  - d_holiday
+- data_reference: '"D_LAST_DOM"'
+  field_map:
+  - d_last_dom
+- data_reference: '"D_MONTH_SEQ"'
+  field_map:
+  - d_month_seq
+- data_reference: '"D_MOY"'
+  field_map:
+  - d_moy
+- data_reference: '"D_QOY"'
+  field_map:
+  - d_qoy
+- data_reference: '"D_QUARTER_NAME"'
+  field_map:
+  - d_quarter_name
+- data_reference: '"D_QUARTER_SEQ"'
+  field_map:
+  - d_quarter_seq
+- data_reference: '"D_SAME_DAY_LQ"'
+  field_map:
+  - d_same_day_lq
+- data_reference: '"D_SAME_DAY_LY"'
+  field_map:
+  - d_same_day_ly
+- data_reference: '"D_WEEKEND"'
+  field_map:
+  - d_weekend
+- data_reference: '"D_WEEK_SEQ"'
+  field_map:
+  - d_week_seq
+- data_reference: '"D_YEAR"'
+  field_map:
+  - d_year
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf100tcl.date_dim

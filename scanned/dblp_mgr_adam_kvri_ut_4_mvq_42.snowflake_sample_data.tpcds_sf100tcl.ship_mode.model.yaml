@@ -1,0 +1,24 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF100TCL.SHIP_MODE
+fields:
+- data_reference: '"SM_CARRIER"'
+  field_map:
+  - sm_carrier
+- data_reference: '"SM_CODE"'
+  field_map:
+  - sm_code
+- data_reference: '"SM_CONTRACT"'
+  field_map:
+  - sm_contract
+- data_reference: '"SM_SHIP_MODE_ID"'
+  field_map:
+  - sm_ship_mode_id
+- data_reference: '"SM_SHIP_MODE_SK"'
+  field_map:
+  - sm_ship_mode_sk
+- data_reference: '"SM_TYPE"'
+  field_map:
+  - sm_type
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf100tcl.ship_mode

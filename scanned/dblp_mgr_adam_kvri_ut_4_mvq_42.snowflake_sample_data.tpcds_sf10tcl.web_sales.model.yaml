@@ -1,0 +1,108 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF10TCL.WEB_SALES
+fields:
+- data_reference: '"WS_BILL_ADDR_SK"'
+  field_map:
+  - ws_bill_addr_sk
+- data_reference: '"WS_BILL_CDEMO_SK"'
+  field_map:
+  - ws_bill_cdemo_sk
+- data_reference: '"WS_BILL_CUSTOMER_SK"'
+  field_map:
+  - ws_bill_customer_sk
+- data_reference: '"WS_BILL_HDEMO_SK"'
+  field_map:
+  - ws_bill_hdemo_sk
+- data_reference: '"WS_COUPON_AMT"'
+  field_map:
+  - ws_coupon_amt
+- data_reference: '"WS_EXT_DISCOUNT_AMT"'
+  field_map:
+  - ws_ext_discount_amt
+- data_reference: '"WS_EXT_LIST_PRICE"'
+  field_map:
+  - ws_ext_list_price
+- data_reference: '"WS_EXT_SALES_PRICE"'
+  field_map:
+  - ws_ext_sales_price
+- data_reference: '"WS_EXT_SHIP_COST"'
+  field_map:
+  - ws_ext_ship_cost
+- data_reference: '"WS_EXT_TAX"'
+  field_map:
+  - ws_ext_tax
+- data_reference: '"WS_EXT_WHOLESALE_COST"'
+  field_map:
+  - ws_ext_wholesale_cost
+- data_reference: '"WS_ITEM_SK"'
+  field_map:
+  - ws_item_sk
+- data_reference: '"WS_LIST_PRICE"'
+  field_map:
+  - ws_list_price
+- data_reference: '"WS_NET_PAID"'
+  field_map:
+  - ws_net_paid
+- data_reference: '"WS_NET_PAID_INC_SHIP"'
+  field_map:
+  - ws_net_paid_inc_ship
+- data_reference: '"WS_NET_PAID_INC_SHIP_TAX"'
+  field_map:
+  - ws_net_paid_inc_ship_tax
+- data_reference: '"WS_NET_PAID_INC_TAX"'
+  field_map:
+  - ws_net_paid_inc_tax
+- data_reference: '"WS_NET_PROFIT"'
+  field_map:
+  - ws_net_profit
+- data_reference: '"WS_ORDER_NUMBER"'
+  field_map:
+  - ws_order_number
+- data_reference: '"WS_PROMO_SK"'
+  field_map:
+  - ws_promo_sk
+- data_reference: '"WS_QUANTITY"'
+  field_map:
+  - ws_quantity
+- data_reference: '"WS_SALES_PRICE"'
+  field_map:
+  - ws_sales_price
+- data_reference: '"WS_SHIP_ADDR_SK"'
+  field_map:
+  - ws_ship_addr_sk
+- data_reference: '"WS_SHIP_CDEMO_SK"'
+  field_map:
+  - ws_ship_cdemo_sk
+- data_reference: '"WS_SHIP_CUSTOMER_SK"'
+  field_map:
+  - ws_ship_customer_sk
+- data_reference: '"WS_SHIP_DATE_SK"'
+  field_map:
+  - ws_ship_date_sk
+- data_reference: '"WS_SHIP_HDEMO_SK"'
+  field_map:
+  - ws_ship_hdemo_sk
+- data_reference: '"WS_SHIP_MODE_SK"'
+  field_map:
+  - ws_ship_mode_sk
+- data_reference: '"WS_SOLD_DATE_SK"'
+  field_map:
+  - ws_sold_date_sk
+- data_reference: '"WS_SOLD_TIME_SK"'
+  field_map:
+  - ws_sold_time_sk
+- data_reference: '"WS_WAREHOUSE_SK"'
+  field_map:
+  - ws_warehouse_sk
+- data_reference: '"WS_WEB_PAGE_SK"'
+  field_map:
+  - ws_web_page_sk
+- data_reference: '"WS_WEB_SITE_SK"'
+  field_map:
+  - ws_web_site_sk
+- data_reference: '"WS_WHOLESALE_COST"'
+  field_map:
+  - ws_wholesale_cost
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf10tcl.web_sales

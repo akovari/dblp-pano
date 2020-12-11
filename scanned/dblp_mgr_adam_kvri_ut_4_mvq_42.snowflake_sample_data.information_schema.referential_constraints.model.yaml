@@ -1,0 +1,42 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.INFORMATION_SCHEMA.REFERENTIAL_CONSTRAINTS
+fields:
+- data_reference: '"COMMENT"'
+  field_map:
+  - comment
+- data_reference: '"CONSTRAINT_CATALOG"'
+  field_map:
+  - constraint_catalog
+- data_reference: '"CONSTRAINT_NAME"'
+  field_map:
+  - constraint_name
+- data_reference: '"CONSTRAINT_SCHEMA"'
+  field_map:
+  - constraint_schema
+- data_reference: '"CREATED"'
+  field_map:
+  - created
+- data_reference: '"DELETE_RULE"'
+  field_map:
+  - delete_rule
+- data_reference: '"LAST_ALTERED"'
+  field_map:
+  - last_altered
+- data_reference: '"MATCH_OPTION"'
+  field_map:
+  - match_option
+- data_reference: '"UNIQUE_CONSTRAINT_CATALOG"'
+  field_map:
+  - unique_constraint_catalog
+- data_reference: '"UNIQUE_CONSTRAINT_NAME"'
+  field_map:
+  - unique_constraint_name
+- data_reference: '"UNIQUE_CONSTRAINT_SCHEMA"'
+  field_map:
+  - unique_constraint_schema
+- data_reference: '"UPDATE_RULE"'
+  field_map:
+  - update_rule
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.information_schema.referential_constraints

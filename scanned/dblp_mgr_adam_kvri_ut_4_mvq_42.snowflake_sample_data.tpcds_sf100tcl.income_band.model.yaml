@@ -1,0 +1,15 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF100TCL.INCOME_BAND
+fields:
+- data_reference: '"IB_INCOME_BAND_SK"'
+  field_map:
+  - ib_income_band_sk
+- data_reference: '"IB_LOWER_BOUND"'
+  field_map:
+  - ib_lower_bound
+- data_reference: '"IB_UPPER_BOUND"'
+  field_map:
+  - ib_upper_bound
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf100tcl.income_band

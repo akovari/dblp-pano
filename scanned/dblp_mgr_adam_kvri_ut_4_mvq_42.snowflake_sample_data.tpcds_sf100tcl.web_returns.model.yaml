@@ -1,0 +1,78 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF100TCL.WEB_RETURNS
+fields:
+- data_reference: '"WR_ACCOUNT_CREDIT"'
+  field_map:
+  - wr_account_credit
+- data_reference: '"WR_FEE"'
+  field_map:
+  - wr_fee
+- data_reference: '"WR_ITEM_SK"'
+  field_map:
+  - wr_item_sk
+- data_reference: '"WR_NET_LOSS"'
+  field_map:
+  - wr_net_loss
+- data_reference: '"WR_ORDER_NUMBER"'
+  field_map:
+  - wr_order_number
+- data_reference: '"WR_REASON_SK"'
+  field_map:
+  - wr_reason_sk
+- data_reference: '"WR_REFUNDED_ADDR_SK"'
+  field_map:
+  - wr_refunded_addr_sk
+- data_reference: '"WR_REFUNDED_CASH"'
+  field_map:
+  - wr_refunded_cash
+- data_reference: '"WR_REFUNDED_CDEMO_SK"'
+  field_map:
+  - wr_refunded_cdemo_sk
+- data_reference: '"WR_REFUNDED_CUSTOMER_SK"'
+  field_map:
+  - wr_refunded_customer_sk
+- data_reference: '"WR_REFUNDED_HDEMO_SK"'
+  field_map:
+  - wr_refunded_hdemo_sk
+- data_reference: '"WR_RETURNED_DATE_SK"'
+  field_map:
+  - wr_returned_date_sk
+- data_reference: '"WR_RETURNED_TIME_SK"'
+  field_map:
+  - wr_returned_time_sk
+- data_reference: '"WR_RETURNING_ADDR_SK"'
+  field_map:
+  - wr_returning_addr_sk
+- data_reference: '"WR_RETURNING_CDEMO_SK"'
+  field_map:
+  - wr_returning_cdemo_sk
+- data_reference: '"WR_RETURNING_CUSTOMER_SK"'
+  field_map:
+  - wr_returning_customer_sk
+- data_reference: '"WR_RETURNING_HDEMO_SK"'
+  field_map:
+  - wr_returning_hdemo_sk
+- data_reference: '"WR_RETURN_AMT"'
+  field_map:
+  - wr_return_amt
+- data_reference: '"WR_RETURN_AMT_INC_TAX"'
+  field_map:
+  - wr_return_amt_inc_tax
+- data_reference: '"WR_RETURN_QUANTITY"'
+  field_map:
+  - wr_return_quantity
+- data_reference: '"WR_RETURN_SHIP_COST"'
+  field_map:
+  - wr_return_ship_cost
+- data_reference: '"WR_RETURN_TAX"'
+  field_map:
+  - wr_return_tax
+- data_reference: '"WR_REVERSED_CHARGE"'
+  field_map:
+  - wr_reversed_charge
+- data_reference: '"WR_WEB_PAGE_SK"'
+  field_map:
+  - wr_web_page_sk
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf100tcl.web_returns

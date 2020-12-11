@@ -1,0 +1,63 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF100TCL.PROMOTION
+fields:
+- data_reference: '"P_CHANNEL_CATALOG"'
+  field_map:
+  - p_channel_catalog
+- data_reference: '"P_CHANNEL_DEMO"'
+  field_map:
+  - p_channel_demo
+- data_reference: '"P_CHANNEL_DETAILS"'
+  field_map:
+  - p_channel_details
+- data_reference: '"P_CHANNEL_DMAIL"'
+  field_map:
+  - p_channel_dmail
+- data_reference: '"P_CHANNEL_EMAIL"'
+  field_map:
+  - p_channel_email
+- data_reference: '"P_CHANNEL_EVENT"'
+  field_map:
+  - p_channel_event
+- data_reference: '"P_CHANNEL_PRESS"'
+  field_map:
+  - p_channel_press
+- data_reference: '"P_CHANNEL_RADIO"'
+  field_map:
+  - p_channel_radio
+- data_reference: '"P_CHANNEL_TV"'
+  field_map:
+  - p_channel_tv
+- data_reference: '"P_COST"'
+  field_map:
+  - p_cost
+- data_reference: '"P_DISCOUNT_ACTIVE"'
+  field_map:
+  - p_discount_active
+- data_reference: '"P_END_DATE_SK"'
+  field_map:
+  - p_end_date_sk
+- data_reference: '"P_ITEM_SK"'
+  field_map:
+  - p_item_sk
+- data_reference: '"P_PROMO_ID"'
+  field_map:
+  - p_promo_id
+- data_reference: '"P_PROMO_NAME"'
+  field_map:
+  - p_promo_name
+- data_reference: '"P_PROMO_SK"'
+  field_map:
+  - p_promo_sk
+- data_reference: '"P_PURPOSE"'
+  field_map:
+  - p_purpose
+- data_reference: '"P_RESPONSE_TARGET"'
+  field_map:
+  - p_response_target
+- data_reference: '"P_START_DATE_SK"'
+  field_map:
+  - p_start_date_sk
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf100tcl.promotion

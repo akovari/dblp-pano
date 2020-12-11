@@ -1,0 +1,8 @@
+aggregation:
+  type: group_by
+api_version: v1
+data_type: datetime
+display_name: mdate
+field_type: dimension
+group: CLI
+slug: mdate

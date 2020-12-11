@@ -1,0 +1,12 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCH_SF10.Q11_WINMAGIC
+fields:
+- data_reference: '"PS_PARTKEY"'
+  field_map:
+  - ps_partkey
+- data_reference: '"TOTAL"'
+  field_map:
+  - total
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpch_sf10.q11_winmagic

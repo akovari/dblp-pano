@@ -1,0 +1,78 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.UTIL_DB.INFORMATION_SCHEMA.FUNCTIONS
+fields:
+- data_reference: '"API_INTEGRATION"'
+  field_map:
+  - api_integration
+- data_reference: '"ARGUMENT_SIGNATURE"'
+  field_map:
+  - argument_signature
+- data_reference: '"CHARACTER_MAXIMUM_LENGTH"'
+  field_map:
+  - character_maximum_length
+- data_reference: '"CHARACTER_OCTET_LENGTH"'
+  field_map:
+  - character_octet_length
+- data_reference: '"COMMENT"'
+  field_map:
+  - comment
+- data_reference: '"COMPRESSION"'
+  field_map:
+  - compression
+- data_reference: '"CONTEXT_HEADERS"'
+  field_map:
+  - context_headers
+- data_reference: '"CREATED"'
+  field_map:
+  - created
+- data_reference: '"DATA_TYPE"'
+  field_map:
+  - data_type
+- data_reference: '"FUNCTION_CATALOG"'
+  field_map:
+  - function_catalog
+- data_reference: '"FUNCTION_DEFINITION"'
+  field_map:
+  - function_definition
+- data_reference: '"FUNCTION_LANGUAGE"'
+  field_map:
+  - function_language
+- data_reference: '"FUNCTION_NAME"'
+  field_map:
+  - function_name
+- data_reference: '"FUNCTION_OWNER"'
+  field_map:
+  - function_owner
+- data_reference: '"FUNCTION_SCHEMA"'
+  field_map:
+  - function_schema
+- data_reference: '"IS_EXTERNAL"'
+  field_map:
+  - is_external
+- data_reference: '"IS_NULL_CALL"'
+  field_map:
+  - is_null_call
+- data_reference: '"IS_SECURE"'
+  field_map:
+  - is_secure
+- data_reference: '"LAST_ALTERED"'
+  field_map:
+  - last_altered
+- data_reference: '"MAX_BATCH_ROWS"'
+  field_map:
+  - max_batch_rows
+- data_reference: '"NUMERIC_PRECISION"'
+  field_map:
+  - numeric_precision
+- data_reference: '"NUMERIC_PRECISION_RADIX"'
+  field_map:
+  - numeric_precision_radix
+- data_reference: '"NUMERIC_SCALE"'
+  field_map:
+  - numeric_scale
+- data_reference: '"VOLATILITY"'
+  field_map:
+  - volatility
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.util_db.information_schema.functions

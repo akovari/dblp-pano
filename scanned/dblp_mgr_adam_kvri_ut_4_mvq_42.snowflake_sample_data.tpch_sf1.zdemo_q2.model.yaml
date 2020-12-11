@@ -1,0 +1,15 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.ZDEMO_Q2
+fields:
+- data_reference: '"AVG_TOTAL_PRICE"'
+  field_map:
+  - avg_total_price
+- data_reference: '"CNT"'
+  field_map:
+  - cnt
+- data_reference: '"SUM_TOTAL_PRICE"'
+  field_map:
+  - sum_total_price
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpch_sf1.zdemo_q2

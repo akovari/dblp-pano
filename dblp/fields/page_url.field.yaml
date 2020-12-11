@@ -1,0 +1,8 @@
+aggregation:
+  type: group_by
+api_version: v1
+data_type: url
+display_name: page url
+field_type: dimension
+group: CLI
+slug: page_url

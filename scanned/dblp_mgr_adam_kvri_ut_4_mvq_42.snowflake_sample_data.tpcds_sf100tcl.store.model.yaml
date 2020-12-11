@@ -1,0 +1,93 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF100TCL.STORE
+fields:
+- data_reference: '"S_CITY"'
+  field_map:
+  - s_city
+- data_reference: '"S_CLOSED_DATE_SK"'
+  field_map:
+  - s_closed_date_sk
+- data_reference: '"S_COMPANY_ID"'
+  field_map:
+  - s_company_id
+- data_reference: '"S_COMPANY_NAME"'
+  field_map:
+  - s_company_name
+- data_reference: '"S_COUNTRY"'
+  field_map:
+  - s_country
+- data_reference: '"S_COUNTY"'
+  field_map:
+  - s_county
+- data_reference: '"S_DIVISION_ID"'
+  field_map:
+  - s_division_id
+- data_reference: '"S_DIVISION_NAME"'
+  field_map:
+  - s_division_name
+- data_reference: '"S_FLOOR_SPACE"'
+  field_map:
+  - s_floor_space
+- data_reference: '"S_GEOGRAPHY_CLASS"'
+  field_map:
+  - s_geography_class
+- data_reference: '"S_GMT_OFFSET"'
+  field_map:
+  - s_gmt_offset
+- data_reference: '"S_HOURS"'
+  field_map:
+  - s_hours
+- data_reference: '"S_MANAGER"'
+  field_map:
+  - s_manager
+- data_reference: '"S_MARKET_DESC"'
+  field_map:
+  - s_market_desc
+- data_reference: '"S_MARKET_ID"'
+  field_map:
+  - s_market_id
+- data_reference: '"S_MARKET_MANAGER"'
+  field_map:
+  - s_market_manager
+- data_reference: '"S_NUMBER_EMPLOYEES"'
+  field_map:
+  - s_number_employees
+- data_reference: '"S_REC_END_DATE"'
+  field_map:
+  - s_rec_end_date
+- data_reference: '"S_REC_START_DATE"'
+  field_map:
+  - s_rec_start_date
+- data_reference: '"S_STATE"'
+  field_map:
+  - s_state
+- data_reference: '"S_STORE_ID"'
+  field_map:
+  - s_store_id
+- data_reference: '"S_STORE_NAME"'
+  field_map:
+  - s_store_name
+- data_reference: '"S_STORE_SK"'
+  field_map:
+  - s_store_sk
+- data_reference: '"S_STREET_NAME"'
+  field_map:
+  - s_street_name
+- data_reference: '"S_STREET_NUMBER"'
+  field_map:
+  - s_street_number
+- data_reference: '"S_STREET_TYPE"'
+  field_map:
+  - s_street_type
+- data_reference: '"S_SUITE_NUMBER"'
+  field_map:
+  - s_suite_number
+- data_reference: '"S_TAX_PRECENTAGE"'
+  field_map:
+  - s_tax_precentage
+- data_reference: '"S_ZIP"'
+  field_map:
+  - s_zip
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf100tcl.store

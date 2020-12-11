@@ -1,0 +1,87 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF100TCL.CATALOG_RETURNS
+fields:
+- data_reference: '"CR_CALL_CENTER_SK"'
+  field_map:
+  - cr_call_center_sk
+- data_reference: '"CR_CATALOG_PAGE_SK"'
+  field_map:
+  - cr_catalog_page_sk
+- data_reference: '"CR_FEE"'
+  field_map:
+  - cr_fee
+- data_reference: '"CR_ITEM_SK"'
+  field_map:
+  - cr_item_sk
+- data_reference: '"CR_NET_LOSS"'
+  field_map:
+  - cr_net_loss
+- data_reference: '"CR_ORDER_NUMBER"'
+  field_map:
+  - cr_order_number
+- data_reference: '"CR_REASON_SK"'
+  field_map:
+  - cr_reason_sk
+- data_reference: '"CR_REFUNDED_ADDR_SK"'
+  field_map:
+  - cr_refunded_addr_sk
+- data_reference: '"CR_REFUNDED_CASH"'
+  field_map:
+  - cr_refunded_cash
+- data_reference: '"CR_REFUNDED_CDEMO_SK"'
+  field_map:
+  - cr_refunded_cdemo_sk
+- data_reference: '"CR_REFUNDED_CUSTOMER_SK"'
+  field_map:
+  - cr_refunded_customer_sk
+- data_reference: '"CR_REFUNDED_HDEMO_SK"'
+  field_map:
+  - cr_refunded_hdemo_sk
+- data_reference: '"CR_RETURNED_DATE_SK"'
+  field_map:
+  - cr_returned_date_sk
+- data_reference: '"CR_RETURNED_TIME_SK"'
+  field_map:
+  - cr_returned_time_sk
+- data_reference: '"CR_RETURNING_ADDR_SK"'
+  field_map:
+  - cr_returning_addr_sk
+- data_reference: '"CR_RETURNING_CDEMO_SK"'
+  field_map:
+  - cr_returning_cdemo_sk
+- data_reference: '"CR_RETURNING_CUSTOMER_SK"'
+  field_map:
+  - cr_returning_customer_sk
+- data_reference: '"CR_RETURNING_HDEMO_SK"'
+  field_map:
+  - cr_returning_hdemo_sk
+- data_reference: '"CR_RETURN_AMOUNT"'
+  field_map:
+  - cr_return_amount
+- data_reference: '"CR_RETURN_AMT_INC_TAX"'
+  field_map:
+  - cr_return_amt_inc_tax
+- data_reference: '"CR_RETURN_QUANTITY"'
+  field_map:
+  - cr_return_quantity
+- data_reference: '"CR_RETURN_SHIP_COST"'
+  field_map:
+  - cr_return_ship_cost
+- data_reference: '"CR_RETURN_TAX"'
+  field_map:
+  - cr_return_tax
+- data_reference: '"CR_REVERSED_CHARGE"'
+  field_map:
+  - cr_reversed_charge
+- data_reference: '"CR_SHIP_MODE_SK"'
+  field_map:
+  - cr_ship_mode_sk
+- data_reference: '"CR_STORE_CREDIT"'
+  field_map:
+  - cr_store_credit
+- data_reference: '"CR_WAREHOUSE_SK"'
+  field_map:
+  - cr_warehouse_sk
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf100tcl.catalog_returns

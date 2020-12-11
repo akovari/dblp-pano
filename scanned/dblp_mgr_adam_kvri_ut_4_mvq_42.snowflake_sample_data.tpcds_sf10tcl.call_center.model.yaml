@@ -1,0 +1,99 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF10TCL.CALL_CENTER
+fields:
+- data_reference: '"CC_CALL_CENTER_ID"'
+  field_map:
+  - cc_call_center_id
+- data_reference: '"CC_CALL_CENTER_SK"'
+  field_map:
+  - cc_call_center_sk
+- data_reference: '"CC_CITY"'
+  field_map:
+  - cc_city
+- data_reference: '"CC_CLASS"'
+  field_map:
+  - cc_class
+- data_reference: '"CC_CLOSED_DATE_SK"'
+  field_map:
+  - cc_closed_date_sk
+- data_reference: '"CC_COMPANY"'
+  field_map:
+  - cc_company
+- data_reference: '"CC_COMPANY_NAME"'
+  field_map:
+  - cc_company_name
+- data_reference: '"CC_COUNTRY"'
+  field_map:
+  - cc_country
+- data_reference: '"CC_COUNTY"'
+  field_map:
+  - cc_county
+- data_reference: '"CC_DIVISION"'
+  field_map:
+  - cc_division
+- data_reference: '"CC_DIVISION_NAME"'
+  field_map:
+  - cc_division_name
+- data_reference: '"CC_EMPLOYEES"'
+  field_map:
+  - cc_employees
+- data_reference: '"CC_GMT_OFFSET"'
+  field_map:
+  - cc_gmt_offset
+- data_reference: '"CC_HOURS"'
+  field_map:
+  - cc_hours
+- data_reference: '"CC_MANAGER"'
+  field_map:
+  - cc_manager
+- data_reference: '"CC_MARKET_MANAGER"'
+  field_map:
+  - cc_market_manager
+- data_reference: '"CC_MKT_CLASS"'
+  field_map:
+  - cc_mkt_class
+- data_reference: '"CC_MKT_DESC"'
+  field_map:
+  - cc_mkt_desc
+- data_reference: '"CC_MKT_ID"'
+  field_map:
+  - cc_mkt_id
+- data_reference: '"CC_NAME"'
+  field_map:
+  - cc_name
+- data_reference: '"CC_OPEN_DATE_SK"'
+  field_map:
+  - cc_open_date_sk
+- data_reference: '"CC_REC_END_DATE"'
+  field_map:
+  - cc_rec_end_date
+- data_reference: '"CC_REC_START_DATE"'
+  field_map:
+  - cc_rec_start_date
+- data_reference: '"CC_SQ_FT"'
+  field_map:
+  - cc_sq_ft
+- data_reference: '"CC_STATE"'
+  field_map:
+  - cc_state
+- data_reference: '"CC_STREET_NAME"'
+  field_map:
+  - cc_street_name
+- data_reference: '"CC_STREET_NUMBER"'
+  field_map:
+  - cc_street_number
+- data_reference: '"CC_STREET_TYPE"'
+  field_map:
+  - cc_street_type
+- data_reference: '"CC_SUITE_NUMBER"'
+  field_map:
+  - cc_suite_number
+- data_reference: '"CC_TAX_PERCENTAGE"'
+  field_map:
+  - cc_tax_percentage
+- data_reference: '"CC_ZIP"'
+  field_map:
+  - cc_zip
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf10tcl.call_center

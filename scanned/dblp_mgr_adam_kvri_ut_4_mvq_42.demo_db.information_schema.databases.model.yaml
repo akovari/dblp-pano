@@ -1,0 +1,27 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.DEMO_DB.INFORMATION_SCHEMA.DATABASES
+fields:
+- data_reference: '"COMMENT"'
+  field_map:
+  - comment
+- data_reference: '"CREATED"'
+  field_map:
+  - created
+- data_reference: '"DATABASE_NAME"'
+  field_map:
+  - database_name
+- data_reference: '"DATABASE_OWNER"'
+  field_map:
+  - database_owner
+- data_reference: '"IS_TRANSIENT"'
+  field_map:
+  - is_transient
+- data_reference: '"LAST_ALTERED"'
+  field_map:
+  - last_altered
+- data_reference: '"RETENTION_TIME"'
+  field_map:
+  - retention_time
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.demo_db.information_schema.databases

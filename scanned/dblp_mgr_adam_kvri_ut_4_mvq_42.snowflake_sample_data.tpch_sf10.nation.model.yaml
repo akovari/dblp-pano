@@ -1,0 +1,18 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCH_SF10.NATION
+fields:
+- data_reference: '"N_COMMENT"'
+  field_map:
+  - n_comment
+- data_reference: '"N_NAME"'
+  field_map:
+  - n_name
+- data_reference: '"N_NATIONKEY"'
+  field_map:
+  - n_nationkey
+- data_reference: '"N_REGIONKEY"'
+  field_map:
+  - n_regionkey
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpch_sf10.nation

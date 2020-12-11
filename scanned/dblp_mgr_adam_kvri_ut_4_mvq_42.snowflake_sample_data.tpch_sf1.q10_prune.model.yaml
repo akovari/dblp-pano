@@ -1,0 +1,30 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.Q10_PRUNE
+fields:
+- data_reference: '"C_ACCTBAL"'
+  field_map:
+  - c_acctbal
+- data_reference: '"C_ADDRESS"'
+  field_map:
+  - c_address
+- data_reference: '"C_COMMENT"'
+  field_map:
+  - c_comment
+- data_reference: '"C_CUSTKEY"'
+  field_map:
+  - c_custkey
+- data_reference: '"C_NAME"'
+  field_map:
+  - c_name
+- data_reference: '"C_PHONE"'
+  field_map:
+  - c_phone
+- data_reference: '"N_NAME"'
+  field_map:
+  - n_name
+- data_reference: '"REVENUE"'
+  field_map:
+  - revenue
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpch_sf1.q10_prune

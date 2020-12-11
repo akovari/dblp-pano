@@ -1,0 +1,33 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.PART
+fields:
+- data_reference: '"P_BRAND"'
+  field_map:
+  - p_brand
+- data_reference: '"P_COMMENT"'
+  field_map:
+  - p_comment
+- data_reference: '"P_CONTAINER"'
+  field_map:
+  - p_container
+- data_reference: '"P_MFGR"'
+  field_map:
+  - p_mfgr
+- data_reference: '"P_NAME"'
+  field_map:
+  - p_name
+- data_reference: '"P_PARTKEY"'
+  field_map:
+  - p_partkey
+- data_reference: '"P_RETAILPRICE"'
+  field_map:
+  - p_retailprice
+- data_reference: '"P_SIZE"'
+  field_map:
+  - p_size
+- data_reference: '"P_TYPE"'
+  field_map:
+  - p_type
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpch_sf1.part

@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+apply plugin : 'application'
+
+mainClassName = 'com.github.akovari.DblpParser'
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation files('libs/mmdb-2019-04-29.jar')
+    compile group: 'org.json', name: 'json', version: '20201115'
+    compile group: 'me.tongfei', name: 'progressbar', version: '0.9.0'
+}

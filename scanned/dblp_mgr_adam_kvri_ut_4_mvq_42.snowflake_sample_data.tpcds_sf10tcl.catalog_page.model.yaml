@@ -1,0 +1,33 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF10TCL.CATALOG_PAGE
+fields:
+- data_reference: '"CP_CATALOG_NUMBER"'
+  field_map:
+  - cp_catalog_number
+- data_reference: '"CP_CATALOG_PAGE_ID"'
+  field_map:
+  - cp_catalog_page_id
+- data_reference: '"CP_CATALOG_PAGE_NUMBER"'
+  field_map:
+  - cp_catalog_page_number
+- data_reference: '"CP_CATALOG_PAGE_SK"'
+  field_map:
+  - cp_catalog_page_sk
+- data_reference: '"CP_DEPARTMENT"'
+  field_map:
+  - cp_department
+- data_reference: '"CP_DESCRIPTION"'
+  field_map:
+  - cp_description
+- data_reference: '"CP_END_DATE_SK"'
+  field_map:
+  - cp_end_date_sk
+- data_reference: '"CP_START_DATE_SK"'
+  field_map:
+  - cp_start_date_sk
+- data_reference: '"CP_TYPE"'
+  field_map:
+  - cp_type
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf10tcl.catalog_page

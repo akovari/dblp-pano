@@ -1,0 +1,33 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.DEMO_DB.INFORMATION_SCHEMA.USAGE_PRIVILEGES
+fields:
+- data_reference: '"CREATED"'
+  field_map:
+  - created
+- data_reference: '"GRANTEE"'
+  field_map:
+  - grantee
+- data_reference: '"GRANTOR"'
+  field_map:
+  - grantor
+- data_reference: '"IS_GRANTABLE"'
+  field_map:
+  - is_grantable
+- data_reference: '"OBJECT_CATALOG"'
+  field_map:
+  - object_catalog
+- data_reference: '"OBJECT_NAME"'
+  field_map:
+  - object_name
+- data_reference: '"OBJECT_SCHEMA"'
+  field_map:
+  - object_schema
+- data_reference: '"OBJECT_TYPE"'
+  field_map:
+  - object_type
+- data_reference: '"PRIVILEGE_TYPE"'
+  field_map:
+  - privilege_type
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.demo_db.information_schema.usage_privileges

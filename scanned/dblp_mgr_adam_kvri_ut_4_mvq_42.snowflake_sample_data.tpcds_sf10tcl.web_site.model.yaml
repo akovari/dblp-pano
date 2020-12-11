@@ -1,0 +1,84 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF10TCL.WEB_SITE
+fields:
+- data_reference: '"WEB_CITY"'
+  field_map:
+  - web_city
+- data_reference: '"WEB_CLASS"'
+  field_map:
+  - web_class
+- data_reference: '"WEB_CLOSE_DATE_SK"'
+  field_map:
+  - web_close_date_sk
+- data_reference: '"WEB_COMPANY_ID"'
+  field_map:
+  - web_company_id
+- data_reference: '"WEB_COMPANY_NAME"'
+  field_map:
+  - web_company_name
+- data_reference: '"WEB_COUNTRY"'
+  field_map:
+  - web_country
+- data_reference: '"WEB_COUNTY"'
+  field_map:
+  - web_county
+- data_reference: '"WEB_GMT_OFFSET"'
+  field_map:
+  - web_gmt_offset
+- data_reference: '"WEB_MANAGER"'
+  field_map:
+  - web_manager
+- data_reference: '"WEB_MARKET_MANAGER"'
+  field_map:
+  - web_market_manager
+- data_reference: '"WEB_MKT_CLASS"'
+  field_map:
+  - web_mkt_class
+- data_reference: '"WEB_MKT_DESC"'
+  field_map:
+  - web_mkt_desc
+- data_reference: '"WEB_MKT_ID"'
+  field_map:
+  - web_mkt_id
+- data_reference: '"WEB_NAME"'
+  field_map:
+  - web_name
+- data_reference: '"WEB_OPEN_DATE_SK"'
+  field_map:
+  - web_open_date_sk
+- data_reference: '"WEB_REC_END_DATE"'
+  field_map:
+  - web_rec_end_date
+- data_reference: '"WEB_REC_START_DATE"'
+  field_map:
+  - web_rec_start_date
+- data_reference: '"WEB_SITE_ID"'
+  field_map:
+  - web_site_id
+- data_reference: '"WEB_SITE_SK"'
+  field_map:
+  - web_site_sk
+- data_reference: '"WEB_STATE"'
+  field_map:
+  - web_state
+- data_reference: '"WEB_STREET_NAME"'
+  field_map:
+  - web_street_name
+- data_reference: '"WEB_STREET_NUMBER"'
+  field_map:
+  - web_street_number
+- data_reference: '"WEB_STREET_TYPE"'
+  field_map:
+  - web_street_type
+- data_reference: '"WEB_SUITE_NUMBER"'
+  field_map:
+  - web_suite_number
+- data_reference: '"WEB_TAX_PERCENTAGE"'
+  field_map:
+  - web_tax_percentage
+- data_reference: '"WEB_ZIP"'
+  field_map:
+  - web_zip
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf10tcl.web_site

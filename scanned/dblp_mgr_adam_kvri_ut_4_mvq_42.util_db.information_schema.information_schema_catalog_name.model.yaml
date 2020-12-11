@@ -1,0 +1,9 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.UTIL_DB.INFORMATION_SCHEMA.INFORMATION_SCHEMA_CATALOG_NAME
+fields:
+- data_reference: '"CATALOG_NAME"'
+  field_map:
+  - catalog_name
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.util_db.information_schema.information_schema_catalog_name

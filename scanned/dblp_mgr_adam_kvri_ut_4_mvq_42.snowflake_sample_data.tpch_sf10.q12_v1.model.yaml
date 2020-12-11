@@ -1,0 +1,15 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCH_SF10.Q12_V1
+fields:
+- data_reference: '"HIGH_LINE_COUNT"'
+  field_map:
+  - high_line_count
+- data_reference: '"LOW_LINE_COUNT"'
+  field_map:
+  - low_line_count
+- data_reference: '"L_SHIPMODE"'
+  field_map:
+  - l_shipmode
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpch_sf10.q12_v1

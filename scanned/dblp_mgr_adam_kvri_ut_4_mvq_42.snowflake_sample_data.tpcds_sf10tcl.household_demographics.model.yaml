@@ -1,0 +1,21 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF10TCL.HOUSEHOLD_DEMOGRAPHICS
+fields:
+- data_reference: '"HD_BUY_POTENTIAL"'
+  field_map:
+  - hd_buy_potential
+- data_reference: '"HD_DEMO_SK"'
+  field_map:
+  - hd_demo_sk
+- data_reference: '"HD_DEP_COUNT"'
+  field_map:
+  - hd_dep_count
+- data_reference: '"HD_INCOME_BAND_SK"'
+  field_map:
+  - hd_income_band_sk
+- data_reference: '"HD_VEHICLE_COUNT"'
+  field_map:
+  - hd_vehicle_count
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf10tcl.household_demographics

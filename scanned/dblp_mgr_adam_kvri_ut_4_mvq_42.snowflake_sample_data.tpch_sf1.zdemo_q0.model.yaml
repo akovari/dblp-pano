@@ -1,0 +1,9 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.ZDEMO_Q0
+fields:
+- data_reference: '"CNT"'
+  field_map:
+  - cnt
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpch_sf1.zdemo_q0

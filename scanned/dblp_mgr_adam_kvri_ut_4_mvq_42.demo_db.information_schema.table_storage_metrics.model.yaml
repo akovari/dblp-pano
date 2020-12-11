@@ -1,0 +1,60 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.DEMO_DB.INFORMATION_SCHEMA.TABLE_STORAGE_METRICS
+fields:
+- data_reference: '"ACTIVE_BYTES"'
+  field_map:
+  - active_bytes
+- data_reference: '"CATALOG_CREATED"'
+  field_map:
+  - catalog_created
+- data_reference: '"CATALOG_DROPPED"'
+  field_map:
+  - catalog_dropped
+- data_reference: '"CLONE_GROUP_ID"'
+  field_map:
+  - clone_group_id
+- data_reference: '"COMMENT"'
+  field_map:
+  - comment
+- data_reference: '"FAILSAFE_BYTES"'
+  field_map:
+  - failsafe_bytes
+- data_reference: '"ID"'
+  field_map:
+  - id
+- data_reference: '"IS_TRANSIENT"'
+  field_map:
+  - is_transient
+- data_reference: '"RETAINED_FOR_CLONE_BYTES"'
+  field_map:
+  - retained_for_clone_bytes
+- data_reference: '"SCHEMA_CREATED"'
+  field_map:
+  - schema_created
+- data_reference: '"SCHEMA_DROPPED"'
+  field_map:
+  - schema_dropped
+- data_reference: '"TABLE_CATALOG"'
+  field_map:
+  - table_catalog
+- data_reference: '"TABLE_CREATED"'
+  field_map:
+  - table_created
+- data_reference: '"TABLE_DROPPED"'
+  field_map:
+  - table_dropped
+- data_reference: '"TABLE_ENTERED_FAILSAFE"'
+  field_map:
+  - table_entered_failsafe
+- data_reference: '"TABLE_NAME"'
+  field_map:
+  - table_name
+- data_reference: '"TABLE_SCHEMA"'
+  field_map:
+  - table_schema
+- data_reference: '"TIME_TRAVEL_BYTES"'
+  field_map:
+  - time_travel_bytes
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.demo_db.information_schema.table_storage_metrics

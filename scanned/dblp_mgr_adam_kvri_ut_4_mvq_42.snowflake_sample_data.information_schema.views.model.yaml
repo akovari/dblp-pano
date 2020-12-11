@@ -1,0 +1,42 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.INFORMATION_SCHEMA.VIEWS
+fields:
+- data_reference: '"CHECK_OPTION"'
+  field_map:
+  - check_option
+- data_reference: '"COMMENT"'
+  field_map:
+  - comment
+- data_reference: '"CREATED"'
+  field_map:
+  - created
+- data_reference: '"INSERTABLE_INTO"'
+  field_map:
+  - insertable_into
+- data_reference: '"IS_SECURE"'
+  field_map:
+  - is_secure
+- data_reference: '"IS_UPDATABLE"'
+  field_map:
+  - is_updatable
+- data_reference: '"LAST_ALTERED"'
+  field_map:
+  - last_altered
+- data_reference: '"TABLE_CATALOG"'
+  field_map:
+  - table_catalog
+- data_reference: '"TABLE_NAME"'
+  field_map:
+  - table_name
+- data_reference: '"TABLE_OWNER"'
+  field_map:
+  - table_owner
+- data_reference: '"TABLE_SCHEMA"'
+  field_map:
+  - table_schema
+- data_reference: '"VIEW_DEFINITION"'
+  field_map:
+  - view_definition
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.information_schema.views

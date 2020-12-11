@@ -1,0 +1,36 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.INFORMATION_SCHEMA.STAGES
+fields:
+- data_reference: '"COMMENT"'
+  field_map:
+  - comment
+- data_reference: '"CREATED"'
+  field_map:
+  - created
+- data_reference: '"LAST_ALTERED"'
+  field_map:
+  - last_altered
+- data_reference: '"STAGE_CATALOG"'
+  field_map:
+  - stage_catalog
+- data_reference: '"STAGE_NAME"'
+  field_map:
+  - stage_name
+- data_reference: '"STAGE_OWNER"'
+  field_map:
+  - stage_owner
+- data_reference: '"STAGE_REGION"'
+  field_map:
+  - stage_region
+- data_reference: '"STAGE_SCHEMA"'
+  field_map:
+  - stage_schema
+- data_reference: '"STAGE_TYPE"'
+  field_map:
+  - stage_type
+- data_reference: '"STAGE_URL"'
+  field_map:
+  - stage_url
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.information_schema.stages

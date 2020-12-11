@@ -1,0 +1,15 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCH_SF10.Q09_V1
+fields:
+- data_reference: '"NATION"'
+  field_map:
+  - nation
+- data_reference: '"O_YEAR"'
+  field_map:
+  - o_year
+- data_reference: '"SUM_PROFIT"'
+  field_map:
+  - sum_profit
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpch_sf10.q09_v1

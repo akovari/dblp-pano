@@ -1,0 +1,72 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.DBLP.INFORMATION_SCHEMA.TABLES
+fields:
+- data_reference: '"AUTO_CLUSTERING_ON"'
+  field_map:
+  - auto_clustering_on
+- data_reference: '"BYTES"'
+  field_map:
+  - bytes
+- data_reference: '"CLUSTERING_KEY"'
+  field_map:
+  - clustering_key
+- data_reference: '"COMMENT"'
+  field_map:
+  - comment
+- data_reference: '"COMMIT_ACTION"'
+  field_map:
+  - commit_action
+- data_reference: '"CREATED"'
+  field_map:
+  - created
+- data_reference: '"IS_INSERTABLE_INTO"'
+  field_map:
+  - is_insertable_into
+- data_reference: '"IS_TRANSIENT"'
+  field_map:
+  - is_transient
+- data_reference: '"IS_TYPED"'
+  field_map:
+  - is_typed
+- data_reference: '"LAST_ALTERED"'
+  field_map:
+  - last_altered
+- data_reference: '"REFERENCE_GENERATION"'
+  field_map:
+  - reference_generation
+- data_reference: '"RETENTION_TIME"'
+  field_map:
+  - retention_time
+- data_reference: '"ROW_COUNT"'
+  field_map:
+  - row_count
+- data_reference: '"SELF_REFERENCING_COLUMN_NAME"'
+  field_map:
+  - self_referencing_column_name
+- data_reference: '"TABLE_CATALOG"'
+  field_map:
+  - table_catalog
+- data_reference: '"TABLE_NAME"'
+  field_map:
+  - table_name
+- data_reference: '"TABLE_OWNER"'
+  field_map:
+  - table_owner
+- data_reference: '"TABLE_SCHEMA"'
+  field_map:
+  - table_schema
+- data_reference: '"TABLE_TYPE"'
+  field_map:
+  - table_type
+- data_reference: '"USER_DEFINED_TYPE_CATALOG"'
+  field_map:
+  - user_defined_type_catalog
+- data_reference: '"USER_DEFINED_TYPE_NAME"'
+  field_map:
+  - user_defined_type_name
+- data_reference: '"USER_DEFINED_TYPE_SCHEMA"'
+  field_map:
+  - user_defined_type_schema
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.dblp.information_schema.tables

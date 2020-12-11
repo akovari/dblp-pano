@@ -1,0 +1,66 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF10TCL.STORE_RETURNS
+fields:
+- data_reference: '"SR_ADDR_SK"'
+  field_map:
+  - sr_addr_sk
+- data_reference: '"SR_CDEMO_SK"'
+  field_map:
+  - sr_cdemo_sk
+- data_reference: '"SR_CUSTOMER_SK"'
+  field_map:
+  - sr_customer_sk
+- data_reference: '"SR_FEE"'
+  field_map:
+  - sr_fee
+- data_reference: '"SR_HDEMO_SK"'
+  field_map:
+  - sr_hdemo_sk
+- data_reference: '"SR_ITEM_SK"'
+  field_map:
+  - sr_item_sk
+- data_reference: '"SR_NET_LOSS"'
+  field_map:
+  - sr_net_loss
+- data_reference: '"SR_REASON_SK"'
+  field_map:
+  - sr_reason_sk
+- data_reference: '"SR_REFUNDED_CASH"'
+  field_map:
+  - sr_refunded_cash
+- data_reference: '"SR_RETURNED_DATE_SK"'
+  field_map:
+  - sr_returned_date_sk
+- data_reference: '"SR_RETURN_AMT"'
+  field_map:
+  - sr_return_amt
+- data_reference: '"SR_RETURN_AMT_INC_TAX"'
+  field_map:
+  - sr_return_amt_inc_tax
+- data_reference: '"SR_RETURN_QUANTITY"'
+  field_map:
+  - sr_return_quantity
+- data_reference: '"SR_RETURN_SHIP_COST"'
+  field_map:
+  - sr_return_ship_cost
+- data_reference: '"SR_RETURN_TAX"'
+  field_map:
+  - sr_return_tax
+- data_reference: '"SR_RETURN_TIME_SK"'
+  field_map:
+  - sr_return_time_sk
+- data_reference: '"SR_REVERSED_CHARGE"'
+  field_map:
+  - sr_reversed_charge
+- data_reference: '"SR_STORE_CREDIT"'
+  field_map:
+  - sr_store_credit
+- data_reference: '"SR_STORE_SK"'
+  field_map:
+  - sr_store_sk
+- data_reference: '"SR_TICKET_NUMBER"'
+  field_map:
+  - sr_ticket_number
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf10tcl.store_returns

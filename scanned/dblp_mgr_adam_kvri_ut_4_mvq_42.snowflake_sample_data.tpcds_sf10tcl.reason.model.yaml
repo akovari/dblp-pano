@@ -1,0 +1,15 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF10TCL.REASON
+fields:
+- data_reference: '"R_REASON_DESC"'
+  field_map:
+  - r_reason_desc
+- data_reference: '"R_REASON_ID"'
+  field_map:
+  - r_reason_id
+- data_reference: '"R_REASON_SK"'
+  field_map:
+  - r_reason_sk
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf10tcl.reason

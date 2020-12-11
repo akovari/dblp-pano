@@ -1,0 +1,36 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF100TCL.TIME_DIM
+fields:
+- data_reference: '"T_AM_PM"'
+  field_map:
+  - t_am_pm
+- data_reference: '"T_HOUR"'
+  field_map:
+  - t_hour
+- data_reference: '"T_MEAL_TIME"'
+  field_map:
+  - t_meal_time
+- data_reference: '"T_MINUTE"'
+  field_map:
+  - t_minute
+- data_reference: '"T_SECOND"'
+  field_map:
+  - t_second
+- data_reference: '"T_SHIFT"'
+  field_map:
+  - t_shift
+- data_reference: '"T_SUB_SHIFT"'
+  field_map:
+  - t_sub_shift
+- data_reference: '"T_TIME"'
+  field_map:
+  - t_time
+- data_reference: '"T_TIME_ID"'
+  field_map:
+  - t_time_id
+- data_reference: '"T_TIME_SK"'
+  field_map:
+  - t_time_sk
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf100tcl.time_dim

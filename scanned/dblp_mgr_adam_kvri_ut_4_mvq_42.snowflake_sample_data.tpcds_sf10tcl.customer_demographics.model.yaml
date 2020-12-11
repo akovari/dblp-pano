@@ -1,0 +1,33 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCDS_SF10TCL.CUSTOMER_DEMOGRAPHICS
+fields:
+- data_reference: '"CD_CREDIT_RATING"'
+  field_map:
+  - cd_credit_rating
+- data_reference: '"CD_DEMO_SK"'
+  field_map:
+  - cd_demo_sk
+- data_reference: '"CD_DEP_COLLEGE_COUNT"'
+  field_map:
+  - cd_dep_college_count
+- data_reference: '"CD_DEP_COUNT"'
+  field_map:
+  - cd_dep_count
+- data_reference: '"CD_DEP_EMPLOYED_COUNT"'
+  field_map:
+  - cd_dep_employed_count
+- data_reference: '"CD_EDUCATION_STATUS"'
+  field_map:
+  - cd_education_status
+- data_reference: '"CD_GENDER"'
+  field_map:
+  - cd_gender
+- data_reference: '"CD_MARITAL_STATUS"'
+  field_map:
+  - cd_marital_status
+- data_reference: '"CD_PURCHASE_ESTIMATE"'
+  field_map:
+  - cd_purchase_estimate
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpcds_sf10tcl.customer_demographics

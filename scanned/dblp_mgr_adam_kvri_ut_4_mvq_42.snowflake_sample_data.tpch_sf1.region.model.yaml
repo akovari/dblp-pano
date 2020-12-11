@@ -1,0 +1,15 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.REGION
+fields:
+- data_reference: '"R_COMMENT"'
+  field_map:
+  - r_comment
+- data_reference: '"R_NAME"'
+  field_map:
+  - r_name
+- data_reference: '"R_REGIONKEY"'
+  field_map:
+  - r_regionkey
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.tpch_sf1.region

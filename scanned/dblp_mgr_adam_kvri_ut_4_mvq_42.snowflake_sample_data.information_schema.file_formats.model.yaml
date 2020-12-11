@@ -1,0 +1,72 @@
+api_version: v1
+data_source: dblp_mgr_adam_kvri_ut_4_mvq_42.SNOWFLAKE_SAMPLE_DATA.INFORMATION_SCHEMA.FILE_FORMATS
+fields:
+- data_reference: '"BINARY_FORMAT"'
+  field_map:
+  - binary_format
+- data_reference: '"COMMENT"'
+  field_map:
+  - comment
+- data_reference: '"COMPRESSION"'
+  field_map:
+  - compression
+- data_reference: '"CREATED"'
+  field_map:
+  - created
+- data_reference: '"DATE_FORMAT"'
+  field_map:
+  - date_format
+- data_reference: '"ERROR_ON_COLUMN_COUNT_MISMATCH"'
+  field_map:
+  - error_on_column_count_mismatch
+- data_reference: '"ESCAPE"'
+  field_map:
+  - escape
+- data_reference: '"ESCAPE_UNENCLOSED_FIELD"'
+  field_map:
+  - escape_unenclosed_field
+- data_reference: '"FIELD_DELIMITER"'
+  field_map:
+  - field_delimiter
+- data_reference: '"FIELD_OPTIONALLY_ENCLOSED_BY"'
+  field_map:
+  - field_optionally_enclosed_by
+- data_reference: '"FILE_FORMAT_CATALOG"'
+  field_map:
+  - file_format_catalog
+- data_reference: '"FILE_FORMAT_NAME"'
+  field_map:
+  - file_format_name
+- data_reference: '"FILE_FORMAT_OWNER"'
+  field_map:
+  - file_format_owner
+- data_reference: '"FILE_FORMAT_SCHEMA"'
+  field_map:
+  - file_format_schema
+- data_reference: '"FILE_FORMAT_TYPE"'
+  field_map:
+  - file_format_type
+- data_reference: '"LAST_ALTERED"'
+  field_map:
+  - last_altered
+- data_reference: '"NULL_IF"'
+  field_map:
+  - null_if
+- data_reference: '"RECORD_DELIMITER"'
+  field_map:
+  - record_delimiter
+- data_reference: '"SKIP_HEADER"'
+  field_map:
+  - skip_header
+- data_reference: '"TIMESTAMP_FORMAT"'
+  field_map:
+  - timestamp_format
+- data_reference: '"TIME_FORMAT"'
+  field_map:
+  - time_format
+- data_reference: '"TRIM_SPACE"'
+  field_map:
+  - trim_space
+identifiers: []
+joins: []
+model_name: dblp_mgr_adam_kvri_ut_4_mvq_42.snowflake_sample_data.information_schema.file_formats
